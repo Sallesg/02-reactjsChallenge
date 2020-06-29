@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  background-color: #000000;
+}
+
+div li {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+div li + li {
+  margin-top: 15px;
+}
+
+
